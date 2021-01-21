@@ -1,26 +1,26 @@
-## ethjs-sha3
+## vjs-sha3
 
 <div>
   <!-- Dependency Status -->
-  <a href="https://david-dm.org/SilentCicero/ethjs-sha3">
-    <img src="https://david-dm.org/SilentCicero/ethjs-sha3.svg"
+  <a href="https://david-dm.org/vapjs/vjs-sha3">
+    <img src="https://david-dm.org/vapjs/vjs-sha3.svg"
     alt="Dependency Status" />
   </a>
 
   <!-- devDependency Status -->
-  <a href="https://david-dm.org/SilentCicero/ethjs-sha3#info=devDependencies">
-    <img src="https://david-dm.org/SilentCicero/ethjs-sha3/dev-status.svg" alt="devDependency Status" />
+  <a href="https://david-dm.org/vapjs/vjs-sha3#info=devDependencies">
+    <img src="https://david-dm.org/vapjs/vjs-sha3/dev-status.svg" alt="devDependency Status" />
   </a>
 
   <!-- Build Status -->
-  <a href="https://travis-ci.org/SilentCicero/ethjs-sha3">
-    <img src="https://travis-ci.org/SilentCicero/ethjs-sha3.svg"
+  <a href="https://travis-ci.org/vapjs/vjs-sha3">
+    <img src="https://travis-ci.org/vapjs/vjs-sha3.svg"
     alt="Build Status" />
   </a>
 
   <!-- NPM Version -->
-  <a href="https://www.npmjs.org/package/ethjs-sha3">
-    <img src="http://img.shields.io/npm/v/ethjs-sha3.svg"
+  <a href="https://www.npmjs.org/package/vjs-sha3">
+    <img src="http://img.shields.io/npm/v/vjs-sha3.svg"
     alt="NPM version" />
   </a>
 
@@ -32,18 +32,18 @@
 
 <br />
 
-Just the sha3 method used by Ethereum dApps and contracts.
+Just the sha3 method used by Vapory dApps and contracts.
 
 ## Install
 
 ```
-npm install --save ethjs-sha3
+npm install --save vjs-sha3
 ```
 
 ## Usage
 
 ```js
-const sha3 = require('ethjs-sha3');
+const sha3 = require('vjs-sha3');
 
 console.log(sha3('skfjksdfjksdjksd'));
 
@@ -60,7 +60,7 @@ A port sha3 port from the `ethers-wallet`. Just a single sha3 method that return
 
 ## Contributing
 
-Please help better the ecosystem by submitting issues and pull requests to default. We need all the help we can get to build the absolute best linting standards and utilities. We follow the AirBigNumberB linting standard. Please read more about contributing to `ethjs-sha3` in the `CONTRIBUTING.md`.
+Please help better the ecosystem by submitting issues and pull requests to default. We need all the help we can get to build the absolute best linting standards and utilities. We follow the AirBigNumberB linting standard. Please read more about contributing to `vjs-sha3` in the `CONTRIBUTING.md`.
 
 <!--
 ## Guides
@@ -85,13 +85,13 @@ There is always a lot of work to do, and will have many rules to maintain. So pl
 
 Please consult our [Code of Conduct](CODE_OF_CONDUCT.md) docs before helping out.
 
-We communicate via [issues](https://github.com/SilentCicero/ethjs-sha3/issues) and [pull requests](https://github.com/SilentCicero/ethjs-sha3/pulls).
+We communicate via [issues](https://github.com/vapjs/vjs-sha3/issues) and [pull requests](https://github.com/vapjs/vjs-sha3/pulls).
 
 ## Important documents
 
 - [Changelog](CHANGELOG.md)
 - [Code of Conduct](CODE_OF_CONDUCT.md)
-- [License](https://raw.githubusercontent.com/SilentCicero/ethjs-sha3/master/LICENSE)
+- [License](https://raw.githubusercontent.com/vapjs/vjs-sha3/master/LICENSE)
 
 ## Licence
 

@@ -1,16 +1,16 @@
 {
-  "_from": "ethjs-sha3@0.0.1",
-  "_id": "ethjs-sha3@0.0.1",
+  "_from": "vjs-sha3@0.0.1",
+  "_id": "vjs-sha3@0.0.1",
   "_inBundle": false,
   "_integrity": "sha1-GL6eGo9V0KjmP5m7ZF//gBZ2A68=",
-  "_location": "/ethjs-sha3",
+  "_location": "/vjs-sha3",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "ethjs-sha3@0.0.1",
-    "name": "ethjs-sha3",
-    "escapedName": "ethjs-sha3",
+    "raw": "vjs-sha3@0.0.1",
+    "name": "vjs-sha3",
+    "escapedName": "vjs-sha3",
     "rawSpec": "0.0.1",
     "saveSpec": null,
     "fetchSpec": "0.0.1"
@@ -19,9 +19,9 @@
     "#DEV:/",
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/ethjs-sha3/-/ethjs-sha3-0.0.1.tgz",
+  "_resolved": "https://registry.npmjs.org/vjs-sha3/-/vjs-sha3-0.0.1.tgz",
   "_shasum": "18be9e1a8f55d0a8e63f99bb645fff80167603af",
-  "_spec": "ethjs-sha3@0.0.1",
+  "_spec": "vjs-sha3@0.0.1",
   "_where": "/home/ceo/live/vapjs/vapjs-util",
   "authors": [
     "Nick Dodson <nick.dodson@consensys.net>"
@@ -42,14 +42,14 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/silentcicero/ethjs-sha3/issues"
+    "url": "https://github.com/vapjs/vjs-sha3/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
     "hash.js": "1.0.3"
   },
   "deprecated": false,
-  "description": "Just the sha3 method used by Etheruem dApps, and contracts.",
+  "description": "Just the sha3 method used by Vapory dApps, and contracts.",
   "devDependencies": {
     "babel-eslint": "7.1.0",
     "chai": "^3.5.0",
@@ -64,7 +64,7 @@
     "lint-staged": "1.0.1",
     "mocha": "^3.1.2",
     "pre-commit": "1.1.3",
-    "web3": "^0.17.0-beta"
+    "@vapory/web3": "0.20.4"
   },
   "engines": {
     "node": ">=6.5.0",
@@ -106,13 +106,13 @@
       ]
     }
   },
-  "homepage": "https://github.com/silentcicero/ethjs-sha3#readme",
+  "homepage": "https://github.com/vapjs/vjs-sha3#readme",
   "keywords": [
-    "ethereum",
+    "vapory",
     "rpc",
     "formatter",
     "format",
-    "ethereum",
+    "sha3",
     "encoding",
     "decoding"
   ],
@@ -121,11 +121,11 @@
     "lint:eslint": "*.js"
   },
   "main": "./src/index.js",
-  "name": "ethjs-sha3",
+  "name": "vjs-sha3",
   "pre-commit": "lint:staged",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/silentcicero/ethjs-sha3.git"
+    "url": "git+ssh://git@github.com/vapjs/vjs-sha3.git"
   },
   "scripts": {
     "coveralls": "cat ./coverage/lcov/lcov.info | coveralls",
